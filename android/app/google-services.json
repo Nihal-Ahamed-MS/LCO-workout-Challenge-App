@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "678854039707",
+    "firebase_url": "https://gymworkout-393f8.firebaseio.com",
+    "project_id": "gymworkout-393f8",
+    "storage_bucket": "gymworkout-393f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678854039707:android:aa0abb38c3c276b7728e3e",
+        "android_client_info": {
+          "package_name": "com.example.lcogym"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678854039707-fu9egf4e4vfncslg3hu40cmt2a38tll3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQkCNz4sqxtLGzNKPUdorrPWFcnCTzOGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678854039707-fu9egf4e4vfncslg3hu40cmt2a38tll3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

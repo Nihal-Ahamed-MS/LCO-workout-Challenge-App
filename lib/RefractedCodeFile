@@ -1,0 +1,259 @@
+          //     Positioned(
+          //       top:140,
+          //       left: (MediaQuery.of(context).size.width /2) - 168.0,
+          //       child: Row(
+          //         mainAxisAlignment: MainAxisAlignment.spaceAround,
+          //         children: <Widget>[
+          //           FittedBox(
+          //             child: Container(
+          //               height: 160.0,
+          //               width: 160.0,
+          //               decoration: BoxDecoration(
+          //                 borderRadius: BorderRadius.circular(25.0),
+          //                 color: Colors.white,
+          //                 boxShadow: [
+          //                 BoxShadow(
+          //                   color: Colors.grey,
+          //                   offset: Offset(0.0, 1.0), //(x,y)
+          //                   blurRadius: 6.0,
+          //                 ),
+          //               ],
+          //               ),
+          //               child: Column(
+          //                 children: <Widget>[
+          //                   InkWell(
+          //                     onTap: (){
+          //                       Navigator.of(context).push(MaterialPageRoute(builder: (context)=>Details(heroTag: PushUps.PATH,exName:PushUps.NAME,exTime:PushUps.DURATION,exDesc:PushUps.DESCRIPTION,exMusic:PushUps.SONGPATH)));
+          //                     },
+          //                     child: Hero(
+          //                         tag: PushUps.PATH,
+          //                         child: Image(
+          //                         image: AssetImage(PushUps.PATH),
+          //                     height: 130.0,
+          //                     width: 130.0,
+          //                   ),
+          //                 ),
+          //               ),
+          //               Text(PushUps.NAME,style: TextStyle(
+          //                 fontSize: 18.0,
+          //                 fontWeight: FontWeight.bold
+          //               ),)
+          //             ],
+          //           ),
+          //         )
+          //       ),
+          //       SizedBox(width: 20.0),
+          //       FittedBox(
+          //         child: Container(
+          //           height: 160.0,
+          //           width: 160.0,
+          //           decoration: BoxDecoration(
+          //             borderRadius: BorderRadius.circular(25.0),
+          //             color: Colors.white,
+          //             boxShadow: [
+          //             BoxShadow(
+          //               color: Colors.grey,
+          //               offset: Offset(0.0, 1.0), //(x,y)
+          //               blurRadius: 6.0,
+          //             ),
+          //           ],
+          //           ),
+          //           child: Column(
+          //                 children: <Widget>[
+          //                   InkWell(
+          //                     onTap: (){
+          //                       Navigator.of(context).push(MaterialPageRoute(builder: (context)=>Details(heroTag: Crunches.PATH,exName:Crunches.NAME,exTime:Crunches.DURATION,exDesc:Crunches.DESCRIPTION,exMusic: Crunches.SONGPATH,)));
+          //                     },
+          //                     child: Hero(
+          //                         tag: Crunches.PATH,
+          //                         child: Image(
+          //                         image: AssetImage(Crunches.PATH),
+          //                     height: 130.0,
+          //                     width: 130.0,
+          //                   ),
+          //                 ),
+          //               ),
+          //               Text(Crunches.NAME,style: TextStyle(
+          //                 fontSize: 18.0,
+          //                 fontWeight: FontWeight.bold
+          //               ),)
+          //             ],
+          //           ),
+          //         )
+          //       ),
+          //     ],
+          //   )
+          // ),
+          // Positioned(
+          //   top:340,
+          //   left: (MediaQuery.of(context).size.width /2) - 168.0,
+          //   child: Row(
+          //     mainAxisAlignment: MainAxisAlignment.spaceAround,
+          //     children: <Widget>[
+          //       FittedBox(
+          //         child: Container(
+          //           height: 160.0,
+          //           width: 160.0,
+          //           decoration: BoxDecoration(
+          //             borderRadius: BorderRadius.circular(25.0),
+          //             color: Colors.white,
+          //             boxShadow: [
+          //             BoxShadow(
+          //               color: Colors.grey,
+          //               offset: Offset(0.0, 1.0), //(x,y)
+          //               blurRadius: 6.0,
+          //             ),
+          //           ],
+          //           ),
+          //           child: Column(
+          //                 children: <Widget>[
+          //                   InkWell(
+          //                     onTap: (){
+          //                       Navigator.of(context).push(MaterialPageRoute(builder: (context)=>Details(heroTag: Curl.PATH,exName:Curl.NAME,exTime:Curl.DURATION,exDesc:Curl.DESCRIPTION,exMusic: Curl.SONGPATH)));
+          //                     },
+          //                     child: Hero(
+          //                         tag: Curl.PATH,
+          //                         child: Image(
+          //                         image: AssetImage(Curl.PATH),
+          //                     height: 130.0,
+          //                     width: 130.0,
+          //                   ),
+          //                 ),
+          //               ),
+          //               Text(Curl.NAME,style: TextStyle(
+          //                 fontSize: 18.0,
+          //                 fontWeight: FontWeight.bold
+          //               ),)
+          //             ],
+          //           ),
+          //         )
+          //       ),
+          //       SizedBox(width: 20.0),
+          //       FittedBox(
+          //         child: Container(
+          //           height: 160.0,
+          //           width: 160.0,
+          //           decoration: BoxDecoration(
+          //             borderRadius: BorderRadius.circular(25.0),
+          //             color: Colors.white,
+          //             boxShadow: [
+          //             BoxShadow(
+          //               color: Colors.grey,
+          //               offset: Offset(0.0, 1.0), //(x,y)
+          //               blurRadius: 6.0,
+          //             ),
+          //           ],
+          //           ),
+          //           child: Column(
+          //                 children: <Widget>[
+          //                   InkWell(
+          //                     onTap: (){
+          //                       Navigator.of(context).push(MaterialPageRoute(builder: (context)=>Details(heroTag: InCrunches.PATH,exName:InCrunches.NAME,exTime:InCrunches.DURATION,exDesc:InCrunches.DESCRIPTION,exMusic: InCrunches.SONGPATH)));
+          //                     },
+          //                     child: Hero(
+          //                         tag: InCrunches.PATH,
+          //                         child: Image(
+          //                         image: AssetImage(InCrunches.PATH),
+          //                     height: 130.0,
+          //                     width: 130.0,
+          //                   ),
+          //                 ),
+          //               ),
+          //               Text(InCrunches.NAME,style: TextStyle(
+          //                 fontSize: 16.0,
+          //                 fontWeight: FontWeight.bold
+          //               ),)
+          //             ],
+          //           ),
+          //         )
+          //       ),
+          //     ],
+          //   )
+          // ),
+          // Positioned(
+          //   top:540,
+          //   left: (MediaQuery.of(context).size.width /2) - 168.0,
+          //   child: Row(
+          //     mainAxisAlignment: MainAxisAlignment.spaceAround,
+          //     children: <Widget>[
+          //       FittedBox(
+          //         child: Container(
+          //           height: 160.0,
+          //           width: 160.0,
+          //           decoration: BoxDecoration(
+          //             borderRadius: BorderRadius.circular(25.0),
+          //             color: Colors.white,
+          //             boxShadow: [
+          //             BoxShadow(
+          //               color: Colors.grey,
+          //               offset: Offset(0.0, 1.0), //(x,y)
+          //               blurRadius: 6.0,
+          //             ),
+          //           ],
+          //           ),
+          //           child: Column(
+          //                 children: <Widget>[
+          //                   InkWell(
+          //                     onTap: (){
+          //                       Navigator.of(context).push(MaterialPageRoute(builder: (context)=>Details(heroTag: LegRaise.PATH,exName:LegRaise.NAME,exTime:LegRaise.DURATION,exDesc:LegRaise.DESCRIPTION,exMusic: LegRaise.SONGPATH)));
+          //                     },
+          //                     child: Hero(
+          //                         tag: LegRaise.PATH,
+          //                         child: Image(
+          //                         image: AssetImage(LegRaise.PATH),
+          //                     height: 130.0,
+          //                     width: 130.0,
+          //                   ),
+          //                 ),
+          //               ),
+          //               Text(LegRaise.NAME,style: TextStyle(
+          //                 fontSize: 18.0,
+          //                 fontWeight: FontWeight.bold
+          //               ),)
+          //             ],
+          //           ),
+          //         )
+          //       ),
+          //       SizedBox(width: 20.0),
+          //       FittedBox(
+          //         child: Container(
+          //           height: 160.0,
+          //           width: 160.0,
+          //           decoration: BoxDecoration(
+          //             borderRadius: BorderRadius.circular(25.0),
+          //             color: Colors.white,
+          //             boxShadow: [
+          //             BoxShadow(
+          //               color: Colors.grey,
+          //               offset: Offset(0.0, 1.0), //(x,y)
+          //               blurRadius: 6.0,
+          //             ),
+          //           ],
+          //           ),
+          //           child: Column(
+          //                 children: <Widget>[
+          //                   InkWell(
+          //                     onTap: (){
+          //                       random();
+          //                       Navigator.of(context).push(MaterialPageRoute(builder: (context)=>Details(heroTag: ranPath,exName:ranName,exTime:ranTime,exDesc:ranDes,exMusic: ranSong)));
+          //                     },
+          //                     child: Hero(
+          //                         tag: Ran.PATH,
+          //                         child: Image(
+          //                         image: AssetImage(Ran.PATH),
+          //                     height: 130.0,
+          //                     width: 130.0,
+          //                   ),
+          //                 ),
+          //               ),
+          //               Text(Ran.NAME,style: TextStyle(
+          //                 fontSize: 18.0,
+          //                 fontWeight: FontWeight.bold
+          //               ),)
+          //             ],
+          //           ),
+          //         )
+          //       ),
+          //     ],
+          //   )
+          // ),
